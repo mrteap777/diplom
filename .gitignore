@@ -1,0 +1,40 @@
+# Python файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+
+# Логи и базы данных
+*.log
+*.sqlite
+
+# Файлы IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Виртуальное окружение
+venv/
+env/
+
+# Пользовательские файлы для исключения (добавьте свои)
+/config.py
+/local_settings.py
+/secrets.py
+/tests/output/
+*.ipynb
+
+# Примеры и большие файлы
+/examples/
+/data/
+*.mp4
+*.avi
+*.mov
+/st_app_v2.py
+/st_app.py
